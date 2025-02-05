@@ -1,6 +1,7 @@
 # Parsonal-website
 
 🔗 LinkedIn: [ https://wptasmina.github.io/Parsonal-website ]
+
 🔗 GitHub: [ https://github.com/wptasmina ]
 
 🌟 Portfolio Website

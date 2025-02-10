@@ -4,7 +4,7 @@
 
 # Parsonal-website
 
-🔗 LinkedIn: [ https://wptasmina.github.io/Parsonal-website ]
+🔗 LinkedIn: [Parsonal_website](https://wptasmina.github.io/Parsonal-website)
 
 🔗 GitHub: [ https://github.com/wptasmina ]
 

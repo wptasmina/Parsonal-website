@@ -1,3 +1,7 @@
+
+![parsonal_websit](https://github.com/user-attachments/assets/f0b97f15-24cc-4064-9b48-ed1442526283)
+
+
 # Parsonal-website
 
 🔗 LinkedIn: [ https://wptasmina.github.io/Parsonal-website ]

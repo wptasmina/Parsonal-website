@@ -1,5 +1,5 @@
 
-![parsonal_websit](https://github.com/user-attachments/assets/f0b97f15-24cc-4064-9b48-ed1442526283)
+![Parsonal_website](https://github.com/user-attachments/assets/ca7649a1-f542-4d5c-a519-f9bbdcb4b755)
 
 
 # Parsonal-website

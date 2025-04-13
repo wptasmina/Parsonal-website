@@ -578,7 +578,6 @@ section {
 }
 
 
-
 /* media queries */
 @media (max-width: 991px) {
     html {
@@ -635,7 +634,6 @@ section {
     }
     .contact .row .content {
         padding: 2rem;
-
     }
     .contact .row form{
         margin: 0;

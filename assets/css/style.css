@@ -193,11 +193,11 @@ section {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    /* background: url(/images/user-img.jpg); */
+    text-align: center; 
 }
 .home .content h3{
-    font-size: 7rem;
+    font-size: 6rem;
+    padding-bottom: 1rem;
     text-transform: uppercase;
     font-family: 'Libre Franklin', sans-serif;
     line-height: 1.1;
@@ -240,14 +240,13 @@ section {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4rem;
 }
 .about .row .box-continer {
     flex: 1 1 40rem;
     display: flex;
     gap: 1.5rem;
-    flex-wrap: wrap;
-   
+    flex-wrap: wrap; 
 }
 .about .row .box-continer .box{
     text-align: center;
@@ -392,15 +391,15 @@ section {
 .skill .box-continer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap: 2rem;
+    gap: 4rem;
 }
 .skill .box-continer .box{
     position: relative;
-    width: 27rem;
+    width: 100%;
+    /* margin: 1rem; */
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
-    padding-left: 4rem;
-    margin: 4rem 1rem;
+    padding-inline: 4rem;
     border-left: var(--border);
     z-index: 0;
 }
@@ -483,13 +482,12 @@ section {
     transform: translate(0rem);
     opacity: 1;
 }
-
-    /* contact */
-.contact .row {
+ /* contact */
+ .contact .row {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    gap: 4rem;
 }
 .contact .row .content{
     flex: 1 1 30rem;
@@ -497,11 +495,9 @@ section {
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     padding: 4rem;
-    /* border: 1px solid red; */
 }
 .contact .row .content .info{
     box-shadow: var(--box-shadow);
-    /* border: 1px solid green; */
 }
 .contact .row .content .title{
     text-transform: uppercase;
@@ -543,12 +539,10 @@ section {
 
 .contact .row form {
     flex: 1 1 45rem;
-    margin: 2rem;
     max-width: 70rem;
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     padding: 2rem;
-    /* margin-bottom: 4rem; */
 }    
 .contact .row form .box {
     padding: 1rem 1.5rem;
@@ -603,13 +597,48 @@ section {
     #menu-btn{
         display: initial;
     }
+    .skill .box-continer {
+        width: 100%;
+        margin: 1rem;
+    }
+    .contact .row .content {
+        padding: 2rem;
+
+    }
 }
+
+@media (max-width: 768px) {
+    .contact .row .content,
+    .contact .row form {
+      flex: 1 1 100%;
+    }
+    .contact .row{
+        flex-wrap: wrap;
+        gap: 2rem !important;
+
+    }
+  }
 @media (max-width: 450px) {
     html {
         font-size: 50%;
     }
     .header{
         width: 85%;
+        font-size: 1rem;
         border-right: 0;
     }
+    .skill .box-continer {
+        width: 100%;
+        margin: 1rem;
+    }
+    .contact .row .content {
+        padding: 2rem;
+
+    }
+    .contact .row form{
+        margin: 0;
+        margin-top: 3rem;
+    }
 }
+
+

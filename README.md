@@ -4,7 +4,7 @@
 
 # Parsonal-website
 
-🔗 LinkedIn: [Parsonal_website](https://wptasmina.github.io/Parsonal-website)
+🔗 LinkedIn: [Parsonal_website](https://portfolio-website-eight-red-87.vercel.app)
 
 🔗 GitHub: [ https://github.com/wptasmina ]
 

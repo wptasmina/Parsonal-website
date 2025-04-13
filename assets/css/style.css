@@ -46,7 +46,7 @@ body.active {
 
  /* common class */
 section {
-    min-height: 90vh;
+    min-height: 100vh;
     padding: 2rem;
 }
 .btn{

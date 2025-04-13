@@ -87,7 +87,7 @@ section {
     border-right: var(--border);
     width: 30rem;
     height: 100%;
-    padding-inline: 2.5rem;
+    padding: 2.5rem;
     text-align: center;
     background-color:var(--bg-color); 
     z-index: 999;
@@ -624,6 +624,8 @@ section {
     .header{
         width: 85%;
         font-size: 1rem;
+        padding-inline: 2.5rem !important;
+        padding: 0;
     }
     .header .navbar {
         padding-top: .8rem;
